@@ -54,12 +54,15 @@ main{
     display: flex;
     flex-direction: column;
     gap: 50px;
+    justify-self: center;
 }
 
 main img{
-    max-width: 30rem;
-    height: 60rem;
+    max-width: 63rem;
+    height: 40rem;
     border-radius: 15px;
+    padding-bottom: 20px;
+    border-radius: 55px;
 }
 
 .conteudo{
@@ -77,14 +80,13 @@ main img{
     box-shadow: 5px 5px 15px 5px black;
     width: 60rem;
     height: auto;
-    margin-left: 4rem;
     padding: 5px 5px 5px 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: 20px;
     margin-bottom: 30px;
 }
 
-.texto h2, h1{
+.texto h1{
     text-align: center;
 }
 
