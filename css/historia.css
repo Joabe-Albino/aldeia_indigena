@@ -47,25 +47,6 @@ body{
     text-decoration: none;
 }
 
-/* Imagens laterias */
-
-.imgs{
-    display: flex;
-    gap: 20px;
-    flex-direction: column;
-    width: 29.4rem;
-    max-width: 29.4rem;
-    align-items: center;
-    height: auto;
-    float: right; /*Tira o conteúdo absoluto dela e faz com que o main não fique para baixo como se a div estivesse ocupando o espaço completo  */
-    
-}
-.imgs img{
-    max-width: 31rem;
-    max-height: 29rem;
-    position: fixed;
-    
-}
 
 /* Main */
 
@@ -76,8 +57,8 @@ main{
 }
 
 main img{
-    max-width: 25rem;
-    height: 45rem;
+    max-width: 30rem;
+    height: 60rem;
     border-radius: 15px;
 }
 
@@ -86,7 +67,7 @@ main img{
     flex-direction: row;
     align-items: center;
     gap: 30px;
-    margin: 0 3rem;
+    margin: 0 1rem;
 }
 
 .texto{
@@ -112,6 +93,10 @@ main img{
     white-space: pre-line; /*Faz o trabalho do BR */ 
     
 }
+.texto ul{
+    white-space: pre-line;
+}
+
 
 .texto img{
     height: 20rem;
