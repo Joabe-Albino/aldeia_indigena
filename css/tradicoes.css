@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    border: 0;
+    overflow-x: hidden;
+}
+body{
+     background-color: #f3efe0;
+}
+
+/* Cabeçalho - Header */
+.cabecalho{
+    background-color: #7BA763;
+    min-height: 150px;
+    width: auto;
+    align-content: center;
+}
+.cabecalho h1, p{
+    text-align: center;
+    color: white;
+    font-family: "Jockey One", sans-serif;
+    
+}
+
+/* Seleção de páginas */
+
+.paginas{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #346524;
+}
+.paginas p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    background-color: #7BA763;
+    transition: 1s;
+}
+.paginas p:hover{
+    padding: 12px 22px 12px 22px;
+    background-color: #91b280;
+    transition: 1s;
+}
+.paginas a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Imagens laterias */
+
+.imgs{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 29.4rem;
+    max-width: 29.4rem;
+    align-items: center;
+    height: auto;
+    float: right; /*Tira o conteúdo absoluto dela e faz com que o main não fique para baixo como se a div estivesse ocupando o espaço completo  */
+    
+}
+.imgs img{
+    max-width: 31rem;
+    max-height: 29rem;
+    position: fixed;
+    
+}
+
+/* Main */
+
+main{
+    background-color: white ;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 15px 5px black;
+    width: 60rem;
+    height: auto;
+    margin-left: 4rem;
+    padding: 5px 5px 5px 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.texto h2{
+    text-align: center;
+}
+
+.texto p{
+    color: black;
+    white-space: pre-line; /*Faz o trabalho do BR */ 
+    
+}
+
+.texto img{
+    height: 20rem;
+}
+
+
+footer{ 
+    position: relative;
+    width: 100%;
+    background-color: #346524;
+    height: 7rem;
+    color: white;
+    align-content: center;
+    justify-items: center;
+    
+
+}

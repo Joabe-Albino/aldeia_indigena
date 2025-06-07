@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cultura Indígena</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3efe0;
+      color: #2e2e2e;
+      overflow-x: hidden;
+    }
+
+    header {
+      background-color: #8b4513;
+      color: #fff;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #a0522d;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    section {
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      background-color: #fff8f0;
+      border-left: 6px solid #006400;
+      border-radius: 8px;
+    }
+
+    h2 {
+      color: #b22222;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 1rem;
+      border-radius: 10px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 315px;
+      margin-top: 1rem;
+      border: none;
+      border-radius: 10px;
+    }
+
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .galeria img {
+      width: 100%;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+    }
+
+    .galeria img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background-color: #8b4513;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Conheça a Cultura Indígena</h1>
+    <p>Aprendizado e valorização das tradições dos povos originários</p>
+  </header>
+
+  <section id="evento">
+    <h2>Convite para o Grande Encontro da Aldeia</h2>
+    <p>É com grande honra que convidamos todos para participar do <strong>Encontro Ancestral da Aldeia Yawanawá</strong>, um evento que celebra a espiritualidade, cultura e união dos povos indígenas. Haverá rodas de conversa, apresentações culturais, partilha de saberes e vivências únicas.</p>
+    <ul>
+      <li><strong>Data:</strong> 15 de agosto de 2025</li>
+      <li><strong>Local:</strong> Aldeia Yawanawá, Acre - Brasil</li>
+      <li><strong>Contato:</strong> contato@aldeiayawanawa.org</li>
+    </ul>
+    <img src="https://example.com/imagem-evento.jpg" alt="Foto de evento anterior na aldeia">
+    <h3>Galeria de Eventos Passados</h3>
+    <div class="galeria">
+      <img src="https://example.com/evento1.jpg" alt="Evento passado 1">
+      <img src="https://example.com/evento2.jpg" alt="Evento passado 2">
+      <img src="https://example.com/evento3.jpg" alt="Evento passado 3">
+      <img src="https://example.com/evento4.jpg" alt="Evento passado 4">
+    </div>
+  </section>
+
+  <nav>
+    <a href="#historia">História</a>
+    <a href="#tradicoes">Tradições</a>
+    <a href="#linguas">Línguas</a>
+    <a href="#arte">Arte e Música</a>
+    <a href="#galeria-cultural">Galeria Cultural</a>
+  </nav>
+
+  <main>
+    <section id="historia">
+      <h2>História</h2>
+      <p>Os povos indígenas habitam o território brasileiro há milhares de anos. Antes da colonização, estimam-se que mais de 5 milhões de indígenas viviam em diferentes regiões, com culturas, línguas e modos de vida diversos.</p>
+      <p>A chegada dos colonizadores europeus impactou fortemente suas formas de vida, resultando em conflitos, perda de território e tentativas de assimilação cultural. Ainda assim, os povos originários resistiram e seguem lutando por seus direitos e reconhecimento.</p>
+      <img src="https://example.com/imagem-historia.jpg" alt="Representação histórica indígena">
+    </section>
+
+    <section id="tradicoes">
+      <h2>Tradições</h2>
+      <p>As tradições indígenas incluem rituais espirituais, festivais, danças, cantos, pinturas corporais, culinária tradicional e o uso de plantas medicinais. Cada etnia possui sua própria cosmovisão e práticas específicas, que refletem o respeito pela natureza e pela ancestralidade.</p>
+      <p>Os pajés são figuras centrais na espiritualidade, atuando como curadores e líderes cerimoniais. As celebrações são momentos de união da comunidade e de conexão com os espíritos da floresta.</p>
+      <img src="https://example.com/imagem-tradicoes.jpg" alt="Ritual indígena">
+    </section>
+
+    <section id="linguas">
+      <h2>Línguas</h2>
+      <p>Existem atualmente mais de 150 línguas indígenas faladas no Brasil, pertencentes a diversas famílias linguísticas, como Tupi, Macro-Jê, Aruak e Karib. A transmissão dessas línguas é oral, o que torna essencial sua valorização nas novas gerações.</p>
+      <p>Projetos educacionais em escolas indígenas têm buscado revitalizar e ensinar essas línguas, muitas das quais correm risco de desaparecer. Manter viva a língua é manter viva a memória e identidade de um povo.</p>
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Vídeo sobre línguas indígenas"></iframe>
+    </section>
+
+    <section id="arte">
+      <h2>Arte e Música</h2>
+      <p>A arte indígena está presente no artesanato, na pintura corporal, na cerâmica, na cestaria, nos grafismos e nos instrumentos musicais. Cada traço carrega um significado espiritual, territorial ou histórico.</p>
+      <p>Na música, os cantos rituais são acompanhados por maracás, flautas, tambores e outros instrumentos feitos com materiais naturais. Esses sons ecoam saberes antigos e conectam as pessoas aos ancestrais e à natureza.</p>
+      <img src="https://example.com/imagem-arte.jpg" alt="Artesanato indígena">
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID2" title="Música indígena tradicional"></iframe>
+    </section>
+
+    <section id="galeria-cultural">
+      <h2>Galeria Cultural</h2>
+      <p>Esta galeria celebra a diversidade estética, espiritual e simbólica das culturas indígenas. Cada imagem é um reflexo das vivências, dos rituais e da arte que expressam a relação profunda entre os povos originários e a natureza.</p>
+      <p>Além da beleza visual, buscamos fomentar o respeito e o entendimento das diferentes formas de viver e sentir o mundo que esses povos nos ensinam há milênios.</p>
+      <div class="galeria">
+        <img src="https://example.com/cultura1.jpg" alt="Imagem cultural 1">
+        <img src="https://example.com/cultura2.jpg" alt="Imagem cultural 2">
+        <img src="https://example.com/cultura3.jpg" alt="Imagem cultural 3">
+        <img src="https://example.com/cultura4.jpg" alt="Imagem cultural 4">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Cultura Indígena | Educação para o respeito e valorização</p>
+  </footer>
+</body>
+</html>
