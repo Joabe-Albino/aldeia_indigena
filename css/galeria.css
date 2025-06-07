@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    border: 0;
+    overflow-x: hidden;
+}
+body{
+     background-color: #f3efe0;
+}
+
+/* Cabeçalho - Header */
+.cabecalho{
+    background-color: #7BA763;
+    min-height: 150px;
+    width: auto;
+    align-content: center;
+}
+.cabecalho h1, p{
+    text-align: center;
+    color: white;
+    font-family: "Jockey One", sans-serif;
+    
+}
+
+/* Seleção de páginas */
+
+.paginas{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #346524;
+}
+.paginas p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    background-color: #7BA763;
+    transition: 1s;
+}
+.paginas p:hover{
+    padding: 12px 22px 12px 22px;
+    background-color: #91b280;
+    transition: 1s;
+}
+.paginas a{
+    color: white;
+    text-decoration: none;
+}
+
+/* CONTAINER - MEIO*/
+main{
+    justify-items: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 7rem;
+    justify-content: center;
+    padding: 2rem;
+    
+}
+
+.container img{
+    max-width: 100%;
+    height: 40rem;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.container img:hover{
+    max-width: 105%;
+    height: 41rem;
+    border-radius: 15px;
+    opacity: 80%;
+}
+
+.separacao{
+    justify-self: center;
+    width: 75%;
+    height: 10rem;
+    border-radius: 90px;
+    background-color: #7BA763;
+}
+
+
+
+
+
+footer{ 
+    position: relative;
+    width: 100%;
+    background-color: #346524;
+    height: 7rem;
+    color: white;
+    align-content: center;
+    justify-items: center;
+    
+
+}
