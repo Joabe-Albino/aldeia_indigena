@@ -70,6 +70,25 @@ body{
 /* Main */
 
 main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+main img{
+    max-width: 25rem;
+    height: 45rem;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    margin: 0 3rem;
+}
+
+.texto{
     background-color: white ;
     border-radius: 20px;
     border: 2px solid black;
@@ -79,8 +98,8 @@ main{
     margin-left: 4rem;
     padding: 5px 5px 5px 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .texto h2{
@@ -96,6 +115,8 @@ main{
 .texto img{
     height: 20rem;
 }
+
+
 
 
 footer{ 
