@@ -89,7 +89,8 @@ main{
 }
 
 main img{
-    max-width: 25rem;
+    max-width: 45rem;
+    width: 40rem;
     height: 45rem;
     border-radius: 15px;
 }
@@ -111,7 +112,7 @@ main img{
     height: auto;
     margin-left: 4rem;
     padding: 5px 5px 5px 5px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
     margin-top: 20px;
     margin-bottom: 30px;
 }
@@ -133,16 +134,52 @@ main img{
 
 
 
-footer{ 
-    position: relative;
-    width: 100%;
-    background-color: #346524;
-    height: 7rem;
+footer {
+    background-color: #A25B33;
     color: white;
-    align-content: center;
-    justify-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
+}
 
+.esquerda{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.esquerda a{
+    color: rgb(213, 201, 201);
+    text-decoration: none;
+    transition: 1s;
+}
+.esquerda a:hover{
+    color: white;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    transition: 1s;
+}
+
+.direita{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.direita .item{
+    display: flex;
+    align-items: center;
+    gap: 5px
+}
+.direita a{
+    color: white;
+    text-decoration: none;
+}
+.direita img{
+    max-width: 20px;
+    height: auto;
 }
 
 @media (max-width: 1024px) {

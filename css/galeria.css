@@ -78,6 +78,7 @@ main{
 
 .container img{
     max-width: 100%;
+    width: 40rem;
     height: 40rem;
     border-radius: 15px;
     cursor: pointer;
@@ -94,7 +95,7 @@ main{
 .separacao{
     justify-self: center;
     width: 75%;
-    height: 10rem;
+    height: 5rem;
     border-radius: 90px;
     background-color: #7BA763;
 }
@@ -103,16 +104,52 @@ main{
 
 
 
-footer{ 
-    position: relative;
-    width: 100%;
-    background-color: #346524;
-    height: 7rem;
+footer {
+    background-color: #A25B33;
     color: white;
-    align-content: center;
-    justify-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
+}
 
+.esquerda{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.esquerda a{
+    color: rgb(213, 201, 201);
+    text-decoration: none;
+    transition: 1s;
+}
+.esquerda a:hover{
+    color: white;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    transition: 1s;
+}
+
+.direita{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.direita .item{
+    display: flex;
+    align-items: center;
+    gap: 5px
+}
+.direita a{
+    color: white;
+    text-decoration: none;
+}
+.direita img{
+    max-width: 20px;
+    height: auto;
 }
 
 

@@ -94,9 +94,10 @@ main{
     height: auto;
     margin-left: 4rem;
     padding: 5px 5px 5px 5px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
     margin-top: 20px;
     margin-bottom: 30px;
+    white-space: pre-line; /*Faz o trabalho do BR */ 
 }
 
 .texto h2, h1{
@@ -105,8 +106,6 @@ main{
 
 .texto p{
     color: rgb(59, 56, 56);
-    white-space: pre-line; /*Faz o trabalho do BR */ 
-    
 }
 .texto ul{
     white-space: pre-line;
@@ -133,16 +132,52 @@ main{
 
 
 
-footer{ 
-    position: relative;
-    width: 100%;
-    background-color: #346524;
-    height: 7rem;
+footer {
+    background-color: #A25B33;
     color: white;
-    align-content: center;
-    justify-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
+}
 
+.esquerda{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.esquerda a{
+    color: rgb(213, 201, 201);
+    text-decoration: none;
+    transition: 1s;
+}
+.esquerda a:hover{
+    color: white;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    transition: 1s;
+}
+
+.direita{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.direita .item{
+    display: flex;
+    align-items: center;
+    gap: 5px
+}
+.direita a{
+    color: white;
+    text-decoration: none;
+}
+.direita img{
+    max-width: 20px;
+    height: auto;
 }
 
 

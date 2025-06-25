@@ -66,23 +66,23 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2rem;
-    padding: 2rem;
+    gap: 1rem;
+
 }
 
 
 main {
     width: 60rem;
     max-width: 100%;
-    padding: 2rem;
     font-family: 'Trebuchet MS', sans-serif;
     flex: 1;
 }
 
 
 main img{
-    max-width: 30rem;
-    height: 60rem;
+    max-width: 55rem;
+    width: 50rem;
+    height: 55rem;
     border-radius: 15px;
 }
 
@@ -103,7 +103,7 @@ main img{
     height: auto;
     margin-left: 4rem;
     padding: 5px 5px 5px 5px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
     margin-top: 20px;
     margin-bottom: 30px;
 }
@@ -137,13 +137,52 @@ main img{
 
 
 
-footer{ 
+footer {
     background-color: #A25B33;
     color: white;
     text-align: center;
     padding: 2rem 1rem;
     font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
+}
+
+.esquerda{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.esquerda a{
+    color: rgb(213, 201, 201);
+    text-decoration: none;
+    transition: 1s;
+}
+.esquerda a:hover{
+    color: white;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    transition: 1s;
+}
+
+.direita{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.direita .item{
+    display: flex;
+    align-items: center;
+    gap: 5px
+}
+.direita a{
+    color: white;
+    text-decoration: none;
+}
+.direita img{
+    max-width: 20px;
+    height: auto;
 }
 
 
