@@ -116,19 +116,6 @@ main{
     height: 20rem;
 }
 
-.imgs{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 50px;
-    margin-bottom: 2rem;
-}
-.imgs img{
-    width: 45rem;
-    height: 35rem;
-    border-radius: 15px;
-    
-}
 
 
 
@@ -190,25 +177,16 @@ footer {
     }
 
     .texto {
-        width: 100%;
+        width: 90%;
+        margin: 2rem auto;
         padding: 1.5rem;
+        
     }
 
     .conteudo img {
         width: 100%;
         height: auto;
         padding: 0 1rem;
-    }
-
-    .imgs {
-        flex-direction: column;
-        gap: 2rem;
-        padding: 0 1rem;
-    }
-
-    .imgs img {
-        width: 100%;
-        height: auto;
     }
 
     main {
@@ -226,19 +204,7 @@ footer {
         padding: 0 1rem;
     }
 
-    .paginas {
-        flex-direction: column;
-        align-items: center;
-        gap: 0.5rem;
-        padding: 1rem;
-    }
-
-    .paginas a {
-        width: 90%;
-        text-align: center;
-        padding: 0.6rem;
-        font-size: 1rem;
-    }
+    
 
     .texto h1, .texto h2 {
         font-size: 1.5rem;

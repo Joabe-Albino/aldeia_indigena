@@ -35,7 +35,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #A25B33;
+    background-color: #346524;
     padding: 1rem;
     gap: 1rem;
 }
@@ -226,17 +226,6 @@ footer {
         padding: 0 1rem;
     }
 
-    .paginas {
-        flex-direction: column;
-        align-items: center;
-        gap: 0.5rem;
-    }
-
-    .paginas a {
-        width: 90%;
-        text-align: center;
-    }
-
     .texto {
         width: 95%;
         margin: 1rem auto;
@@ -290,5 +279,10 @@ footer {
     .texto p,
     .texto li {
         font-size: 0.95rem;
+    }
+
+    footer {
+        font-size: 0.52rem;
+        padding: 1rem;
     }
 }

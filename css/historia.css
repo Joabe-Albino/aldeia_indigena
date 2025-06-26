@@ -35,7 +35,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #A25B33;
+    background-color: #346524;
     padding: 1rem;
     gap: 1rem;
 }
@@ -231,17 +231,6 @@ footer {
         padding: 0 1rem;
     }
 
-    .paginas {
-        flex-direction: column;
-        align-items: center;
-        gap: 0.5rem;
-    }
-
-    .paginas a {
-        width: 90%;
-        text-align: center;
-    }
-
     .texto {
         width: 95%;
         margin: 1rem auto;
@@ -272,22 +261,24 @@ footer {
         height: auto;
         max-width: 100%;
     }
+
+    
 }
 
 @media (max-width: 480px) {
     .cabecalho h1 {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
 
     .cabecalho p {
         font-size: 0.95rem;
+        padding: 0 1rem;
     }
 
     .paginas a {
-        font-size: 0.95rem;
-        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+        padding: 8px 14px;
     }
-
     .texto h2 {
         font-size: 1.3rem;
     }
@@ -295,5 +286,10 @@ footer {
     .texto p,
     .texto li {
         font-size: 0.95rem;
+    }
+
+    footer {
+        font-size: 0.52rem;
+        padding: 1rem;
     }
 }

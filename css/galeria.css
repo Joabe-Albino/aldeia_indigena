@@ -169,11 +169,7 @@ footer {
         height: 7rem;
     }
 
-    .paginas {
-        flex-wrap: wrap;
-        gap: 15px;
-        padding: 1rem;
-    }
+    
 }
 
 @media (max-width: 768px) {
@@ -190,25 +186,12 @@ footer {
     }
 
     .cabecalho h1 {
-        font-size: 1.8rem;
-        padding: 0 1rem;
+        font-size: 2rem;
     }
 
     .cabecalho p {
         font-size: 1rem;
         padding: 0 1rem;
-    }
-
-    .paginas {
-        flex-direction: column;
-        align-items: center;
-        gap: 0.5rem;
-        padding: 1rem;
-    }
-
-    .paginas p {
-        padding: 10px 16px;
-        font-size: 1rem;
     }
 
     .separacao {
@@ -229,14 +212,15 @@ footer {
     }
 
     .cabecalho h1 {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
 
     .cabecalho p {
         font-size: 0.95rem;
+        padding: 0 1rem;
     }
 
-    .paginas p {
+    .paginas a {
         font-size: 0.9rem;
         padding: 8px 14px;
     }
